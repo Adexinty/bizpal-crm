@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BizPal | All Customers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../customer/all-customer.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="side-container">
+      <!-- Left Sidebar -->
+      <aside class="sidebar1">
+        <img src="/assets/logo with no bck.svg" alt="BizPal Logo" />
+        <span>BizPal</span>
+      </aside>
+
+      <!-- Left Sidebar -->
+      <aside class="sidebar2">
+        <nav>
+          <ul class="nav-links">
+            <li class="dashboard">
+              <a class="other-link" href="/home-note/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Dashboard.svg" alt="Dashboard icon" />
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a class="main-link" href="all-customer.html">
+                <img src="/leadpipe-grade/Layout icons/Customer.svg" alt="Customers icon" />
+                Customers
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/leadpipe-grade/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Lead.svg" alt="Lead Pipeline icon" />
+                Lead Pipeline
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/notes/layout.html">
+                <img class="note-icon" src="/leadpipe-grade/Layout icons/notes.svg" alt="Notes icon" />
+                Notes
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/follow/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Follow-ups.svg" alt="Follow-ups icon" />
+                Follow-ups
+              </a>
+            </li>
+            <li class="report">
+              <a class="other-link" href="/onboarding-dashboard/analytics.html">REPORTS</a>
+            </li>
+            <li>
+              <a class="other-link" href="/onboarding-dashboard/analytics.html">
+                <img src="/leadpipe-grade/Layout icons/carbon_analytics.svg" alt="Analytics icon" />
+                Analytics
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/onboarding-dashboard/settings.html">
+                <img src="/leadpipe-grade/Layout icons/Settings.svg" alt="Settings icon" />
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- profile -->
+        <div class="profile-button">
+          <div class="profile-pic">
+            <span class="initial">C</span>
+          </div>
+          <div class="profile-info">
+            <h4>Chidi Okafor</h4>
+            <p>Admin</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1>Customers</h1>
+      </div>
+
+      <div class="topbar-right">
+        <form class="search-box" action="all-customer.html" method="get">
+          <i class='bx bx-search'></i>
+          <input type="search" name="q" placeholder="Search Customers...." aria-label="Search customers" />
+        </form>
+        <button class="bell-btn" type="button" aria-label="Notifications">
+          <i class='bx bx-bell'></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+
+      <div class="page-top">
+        <div>
+          <h2>All Customers</h2>
+          <p class="page-sub">12 customers total, 5 active leads</p>
+        </div>
+
+        <a class="add-customer-btn" href="add-customer.html">+ Add Customer</a>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <a class="tab tab-active" href="#">All (12)</a>
+        <a class="tab" href="#">Active Leads (5)</a>
+        <a class="tab" href="#">Closed (3)</a>
+      </div>
+
+      <!-- Customers table -->
+      <div class="table-card">
+        <div class="table-scroll">
+          <div class="table-head">
+            <span>CUSTOMERS</span>
+            <span>PHONE</span>
+            <span>LOCATION</span>
+            <span>LEAD STATUS</span>
+            <span>LAST CONTACT</span>
+            <span>ACTION</span>
+          </div>
+
+          <div class="table-row">
+            <div class="customer-cell">
+              <span class="avatar av-sky"></span>
+              <div>
+                <p class="customer-name">Emeka Nwosu</p>
+                <p class="customer-sub">Samsung TV repair</p>
+              </div>
+            </div>
+            <span class="muted">08012345678</span>
+            <span class="muted">Lagos Island</span>
+            <span><i class="status status-interested">Interested</i></span>
+            <span class="muted">2hrs ago</span>
+            <span class="actions"><a href="#">View</a><a href="#">Edit</a></span>
+          </div>
+
+          <div class="table-row">
+            <div class="customer-cell">
+              <span class="avatar av-green"></span>
+              <div>
+                <p class="customer-name">Adaeze Okafor</p>
+                <p class="customer-sub">New Lead - iPhone repair</p>
+              </div>
+            </div>
+            <span class="muted">08012235678</span>
+            <span class="muted">Ikeja</span>
+            <span><i class="status status-new">New</i></span>
+            <span class="muted">5hrs ago</span>
+            <span class="actions"><a href="#">View</a><a href="#">Edit</a></span>
+          </div>
+
+          <div class="table-row">
+            <div class="customer-cell">
+              <span class="avatar av-gold"></span>
+              <div>
+                <p class="customer-name">Bola Adeyemi</p>
+                <p class="customer-sub">Closed - Call logged</p>
+              </div>
+            </div>
+            <span class="muted">0800798078</span>
+            <span class="muted">Abuja</span>
+            <span><i class="status status-closed">Closed</i></span>
+            <span class="muted">Yesterday</span>
+            <span class="actions"><a href="#">View</a><a href="#">Edit</a></span>
+          </div>
+
+          <div class="table-row">
+            <div class="customer-cell">
+              <span class="avatar av-maroon"></span>
+              <div>
+                <p class="customer-name">Tunde Fashola</p>
+                <p class="customer-sub">Quote: generator</p>
+              </div>
+            </div>
+            <span class="muted">0706664567</span>
+            <span class="muted">Surulere</span>
+            <span><i class="status status-negotiating">Negotiating</i></span>
+            <span class="muted">2 days ago</span>
+            <span class="actions"><a href="#">View</a><a href="#">Edit</a></span>
+          </div>
+
+          <div class="table-row">
+            <div class="customer-cell">
+              <span class="avatar av-red"></span>
+              <div>
+                <p class="customer-name">Ngozi Eze</p>
+                <p class="customer-sub">Contacted - AC unit</p>
+              </div>
+            </div>
+            <span class="muted">08012345678</span>
+            <span class="muted">Kano</span>
+            <span><i class="status status-contacted">Contacted</i></span>
+            <span class="muted">2 days ago</span>
+            <span class="actions"><a href="#">View</a><a href="#">Edit</a></span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>

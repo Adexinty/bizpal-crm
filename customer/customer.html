@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BizPal | Customers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="customer.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="side-container">
+      <!-- Left Sidebar -->
+      <aside class="sidebar1">
+        <div class="nickname">
+          <div class="icon-wrapper">
+            <span class="initials">CE</span>
+          </div>
+        </div>
+        <div class="shop-name">
+          <h1>Chidi's</h1>
+          <p>Electronics</p>
+        </div>
+      </aside>
+
+      <!-- Left Sidebar -->
+      <aside class="sidebar2">
+        <nav>
+          <ul class="nav-links">
+            <li class="dashboard">
+              <a class="main-link" href="/home-note/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Dashboard.svg" alt="Dashboard icon" />
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/customer/customer.html">
+                <img src="/leadpipe-grade/Layout icons/Customer.svg" alt="Customers icon" />
+                Customers
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/leadpipe-grade/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Lead.svg" alt="Lead Pipeline icon" />
+                Lead Pipeline
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/notes/layout.html">
+                <img class="note-icon" src="/leadpipe-grade/Layout icons/notes.svg" alt="Notes icon" />
+                Notes
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/follow/layout.html">
+                <img src="/leadpipe-grade/Layout icons/Follow-ups.svg" alt="Follow-ups icon" />
+                Follow-ups
+              </a>
+            </li>
+            <li class="report">
+              <a class="other-link" href="/onboarding-dashboard/analytics.html">REPORTS</a>
+            </li>
+            <li>
+              <a class="other-link" href="/onboarding-dashboard/analytics.html">
+                <img src="/leadpipe-grade/Layout icons/carbon_analytics.svg" alt="Analytics icon" />
+                Analytics
+              </a>
+            </li>
+            <li>
+              <a class="other-link" href="/onboarding-dashboard/settings.html">
+                <img src="/leadpipe-grade/Layout icons/Settings.svg" alt="Settings icon" />
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- profile -->
+        <div class="profile-button">
+          <div class="profile-pic">
+            <span class="initial">C</span>
+          </div>
+          <div class="profile-info">
+            <h4>Chidi Okafor</h4>
+            <p>Admin</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1>Good morning, Chidi 👋</h1>
+        <p>Here’s what’s happening at your shop today</p>
+      </div>
+
+      <div class="topbar-right">
+        <div class="date-box">
+          <i class='bx bx-calendar'></i>
+          <span>Friday, Jun 13 2026</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+
+      <!-- Summary cards -->
+      <div class="stat-container">
+        <div class="stat-card total-customers">
+          <h2>Total Customers</h2>
+          <p class="stat-number">148</p>
+          <p class="stat-note">+12 this month</p>
+          <div class="stat-circle"></div>
+        </div>
+
+        <div class="stat-card active-leads">
+          <h2>Active Leads</h2>
+          <p class="stat-number">34</p>
+          <p class="stat-note">+5 today</p>
+          <div class="stat-circle"></div>
+        </div>
+
+        <div class="stat-card deals-closed">
+          <h2>Deals Closed</h2>
+          <p class="stat-number">2.4M</p>
+          <p class="stat-note">+15 today</p>
+          <div class="stat-circle"></div>
+        </div>
+
+        <div class="stat-card conversion">
+          <h2>Conversion</h2>
+          <p class="stat-number">62%</p>
+          <p class="stat-note"><i class='bx bx-trending-up'></i> 4% up</p>
+          <div class="stat-circle"></div>
+        </div>
+      </div>
+
+      <!-- Quick actions -->
+      <p class="quick-title">Quick Actions</p>
+
+      <div class="q-container">
+        <a class="q-action q-customer" href="add-customer.html">+ Add Customer</a>
+        <a class="q-action q-lead" href="/leadpipe-grade/add-lead.html">+ Add Lead</a>
+        <a class="q-action q-note" href="/notes/layout.html">+ Log Note</a>
+      </div>
+
+      <!-- Activity + follow-ups -->
+      <div class="panels">
+
+        <section class="panel">
+          <div class="panel-head">
+            <h3>Recent Activity</h3>
+            <a href="all-customer.html">View All <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+
+          <div class="panel-card">
+            <div class="activity-row">
+              <span class="avatar av-teal">EN</span>
+              <div class="activity-text">
+                <p class="person">Emeka Nwosu</p>
+                <p class="detail">Samsung TV repair done</p>
+              </div>
+              <span class="time">2 min ago</span>
+            </div>
+
+            <div class="activity-row">
+              <span class="avatar av-navy">AO</span>
+              <div class="activity-text">
+                <p class="person">Adaeze Okafor</p>
+                <p class="detail">New lead - iPhone repair</p>
+              </div>
+              <span class="time">18 min ago</span>
+            </div>
+
+            <div class="activity-row">
+              <span class="avatar av-blue">BA</span>
+              <div class="activity-text">
+                <p class="person">Bola Adeyemi</p>
+                <p class="detail">Follow-up call logged</p>
+              </div>
+              <span class="time">1 hr ago</span>
+            </div>
+
+            <div class="activity-row">
+              <span class="avatar av-gold">TF</span>
+              <div class="activity-text">
+                <p class="person">Tunde Fashola</p>
+                <p class="detail">Quote: ₦45,000 generator</p>
+              </div>
+              <span class="time">3 hrs ago</span>
+            </div>
+
+            <div class="activity-row">
+              <span class="avatar av-green">NE</span>
+              <div class="activity-text">
+                <p class="person">Ngozi Eze</p>
+                <p class="detail">Deal closed - ₦20,000 AC unit</p>
+              </div>
+              <span class="time">Yesterday</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h3>Upcoming Follow-ups</h3>
+            <a href="/follow/layout.html">View All <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+
+          <div class="panel-card followup-card">
+            <div class="followup negotiating">
+              <span class="avatar avatar-lg av-maroon">C</span>
+              <div>
+                <p class="person">Chukwudi Ibe</p>
+                <p class="detail">Today 10:00 AM</p>
+                <span class="stage stage-negotiating">Negotiating</span>
+              </div>
+            </div>
+
+            <div class="followup interested">
+              <span class="avatar avatar-lg av-gold">F</span>
+              <div>
+                <p class="person">Fatima Bello</p>
+                <p class="detail">Today 2:30 PM</p>
+                <span class="stage stage-interested">Interested</span>
+              </div>
+            </div>
+
+            <div class="followup new-lead">
+              <span class="avatar avatar-lg av-sky">S</span>
+              <div>
+                <p class="person">Seun Adesanya</p>
+                <p class="detail">Tomorrow 9:00 AM</p>
+                <span class="stage stage-new">New Lead</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
